@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>jsp/Login/loginM.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginSM</servlet-name>
+    <servlet-class>login.LoginSM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WelcomeSM</servlet-name>
+    <servlet-class>login.WelcomeSM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdvtSM</servlet-name>
+    <servlet-class>advt.AdvtSM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateAdvtSM</servlet-name>
+    <servlet-class>advt.CreateAdvtSM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdvtListSM</servlet-name>
+    <servlet-class>advt.AdvtListSM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MailingListSM</servlet-name>
+    <servlet-class>advt.MailingListSM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TransactionListSM</servlet-name>
+    <servlet-class>transaction.TransactionListSM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TLItemListSM</servlet-name>
+    <servlet-class>transaction.TLItemListSM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TLMonthListSM</servlet-name>
+    <servlet-class>transaction.TLMonthListSM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TLCustomerListSM</servlet-name>
+    <servlet-class>transaction.TLCustomerListSM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RevenueListSM</servlet-name>
+    <servlet-class>revenue.RevenueListSM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerListSM</servlet-name>
+    <servlet-class>customer.CustomerListSM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerList1SM</servlet-name>
+    <servlet-class>customer.CustomerList1SM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AnalysisSM</servlet-name>
+    <servlet-class>analysis.AnalysisSM</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+ <servlet-mapping>
+  	<servlet-name>LoginSM</servlet-name>
+  	<url-pattern>/LoginSM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WelcomeSM</servlet-name>
+    <url-pattern>/WelcomeSM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdvtSM</servlet-name>
+    <url-pattern>/AdvtSM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateAdvtSM</servlet-name>
+    <url-pattern>/CreateAdvtSM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdvtListSM</servlet-name>
+    <url-pattern>/AdvtListSM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MailingListSM</servlet-name>
+    <url-pattern>/MailingListSM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TransactionListSM</servlet-name>
+    <url-pattern>/TransactionListSM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TLItemListSM</servlet-name>
+    <url-pattern>/TLItemListSM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TLMonthListSM</servlet-name>
+    <url-pattern>/TLMonthListSM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TLCustomerListSM</servlet-name>
+    <url-pattern>/TLCustomerListSM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RevenueListSM</servlet-name>
+    <url-pattern>/RevenueListSM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerListSM</servlet-name>
+    <url-pattern>/CustomerListSM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerList1SM</servlet-name>
+    <url-pattern>/CustomerList1SM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnalysisSM</servlet-name>
+    <url-pattern>/AnalysisSM</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

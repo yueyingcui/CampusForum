@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>jsp/Login/login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginS</servlet-name>
+    <servlet-class>login.LoginS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WelcomeS</servlet-name>
+    <servlet-class>login.WelcomeS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>signupS</servlet-name>
+    <servlet-class>login.SignupS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendS</servlet-name>
+    <servlet-class>friend.FriendS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchFriendS</servlet-name>
+    <servlet-class>friend.SearchFriendS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendListS</servlet-name>
+    <servlet-class>friend.FriendListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchResultSFriend</servlet-name>
+    <servlet-class>friend.SearchResultSFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConfirmFriendS</servlet-name>
+    <servlet-class>friend.ConfirmFriendS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendSFriendListS</servlet-name>
+    <servlet-class>friend.FriendSFriendListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendSSearchFriendS</servlet-name>
+    <servlet-class>friend.FriendSSearchFriendS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendSConfirmFriendS</servlet-name>
+    <servlet-class>friend.FriendSConfirmFriendS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CircleS</servlet-name>
+    <servlet-class>circle.CircleS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CircleSCircleListS</servlet-name>
+    <servlet-class>circle.CircleSCircleListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CircleSCreateCircleS</servlet-name>
+    <servlet-class>circle.CircleSCreateCircleS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateCircleS</servlet-name>
+    <servlet-class>circle.CreateCircleS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CircleListS</servlet-name>
+    <servlet-class>circle.CircleListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchResultSCircleFriend</servlet-name>
+    <servlet-class>circle.SearchResultSCircleFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WelcomeSProfileS</servlet-name>
+    <servlet-class>login.WelcomeSProfileS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostS</servlet-name>
+    <servlet-class>post.PostS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreatePostS</servlet-name>
+    <servlet-class>post.CreatePostS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WallS</servlet-name>
+    <servlet-class>post.WallS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostListS</servlet-name>
+    <servlet-class>post.PostListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateCommentS</servlet-name>
+    <servlet-class>post.CreateCommentS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentListS</servlet-name>
+    <servlet-class>post.CommentListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyPostS</servlet-name>
+    <servlet-class>post.ModifyPostS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageS</servlet-name>
+    <servlet-class>message.MessageS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateMessageS</servlet-name>
+    <servlet-class>message.CreateMessageS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SubjectListS</servlet-name>
+    <servlet-class>message.SubjectListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageListS</servlet-name>
+    <servlet-class>message.MessageListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SipS</servlet-name>
+    <servlet-class>sip.SipS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateSipS</servlet-name>
+    <servlet-class>sip.CreateSipS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchSipS</servlet-name>
+    <servlet-class>sip.SearchSipS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchResultSSip</servlet-name>
+    <servlet-class>sip.SearchResultSSip</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SipListS</servlet-name>
+    <servlet-class>sip.SipListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreatePostSSip</servlet-name>
+    <servlet-class>sip.CreatePostSSip</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostListSSip</servlet-name>
+    <servlet-class>sip.PostListSSip</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateCommentSSip</servlet-name>
+    <servlet-class>sip.CreateCommentSSip</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentListSSip</servlet-name>
+    <servlet-class>sip.CommentListSSip</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyPostSSip</servlet-name>
+    <servlet-class>sip.ModifyPostSSip</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConfirmSipS</servlet-name>
+    <servlet-class>sip.ConfirmSipS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SipListModeratorS</servlet-name>
+    <servlet-class>sip.SipListModeratorS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AppMemberListS</servlet-name>
+    <servlet-class>sip.AppMemberListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AppModeratorListS</servlet-name>
+    <servlet-class>sip.AppModeratorListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateInvitationS</servlet-name>
+    <servlet-class>sip.CreateInvitationS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InvitationListS</servlet-name>
+    <servlet-class>sip.InvitationListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdvtS</servlet-name>
+    <servlet-class>advt.AdvtS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetPreferenceS</servlet-name>
+    <servlet-class>advt.SetPreferenceS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TypeListS</servlet-name>
+    <servlet-class>advt.TypeListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdvtListS</servlet-name>
+    <servlet-class>advt.AdvtListS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PurchaseS</servlet-name>
+    <servlet-class>advt.PurchaseS</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <servlet-mapping>
+  	<servlet-name>LoginS</servlet-name>
+  	<url-pattern>/LoginS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WelcomeS</servlet-name>
+    <url-pattern>/WelcomeS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>signupS</servlet-name>
+    <url-pattern>/SignupS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendS</servlet-name>
+    <url-pattern>/FriendS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchFriendS</servlet-name>
+    <url-pattern>/SearchFriendS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendListS</servlet-name>
+    <url-pattern>/FriendListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchResultSFriend</servlet-name>
+    <url-pattern>/SearchResultSFriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConfirmFriendS</servlet-name>
+    <url-pattern>/ConfirmFriendS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendSFriendListS</servlet-name>
+    <url-pattern>/FriendSFriendListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendSSearchFriendS</servlet-name>
+    <url-pattern>/FriendSSearchFriendS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendSConfirmFriendS</servlet-name>
+    <url-pattern>/FriendSConfirmFriendS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CircleS</servlet-name>
+    <url-pattern>/CircleS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CircleSCircleListS</servlet-name>
+    <url-pattern>/CircleSCircleListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CircleSCreateCircleS</servlet-name>
+    <url-pattern>/CircleSCreateCircleS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateCircleS</servlet-name>
+    <url-pattern>/CreateCircleS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CircleListS</servlet-name>
+    <url-pattern>/CircleListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchResultSCircleFriend</servlet-name>
+    <url-pattern>/SearchResultSCircleFriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WelcomeSProfileS</servlet-name>
+    <url-pattern>/WelcomeSProfileS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostS</servlet-name>
+    <url-pattern>/PostS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreatePostS</servlet-name>
+    <url-pattern>/CreatePostS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WallS</servlet-name>
+    <url-pattern>/WallS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostListS</servlet-name>
+    <url-pattern>/PostListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateCommentS</servlet-name>
+    <url-pattern>/CreateCommentS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentListS</servlet-name>
+    <url-pattern>/CommentListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyPostS</servlet-name>
+    <url-pattern>/ModifyPostS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageS</servlet-name>
+    <url-pattern>/MessageS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateMessageS</servlet-name>
+    <url-pattern>/CreateMessageS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubjectListS</servlet-name>
+    <url-pattern>/SubjectListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageListS</servlet-name>
+    <url-pattern>/MessageListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SipS</servlet-name>
+    <url-pattern>/SipS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateSipS</servlet-name>
+    <url-pattern>/CreateSipS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchSipS</servlet-name>
+    <url-pattern>/SearchSipS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchResultSSip</servlet-name>
+    <url-pattern>/SearchResultSSip</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SipListS</servlet-name>
+    <url-pattern>/SipListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreatePostSSip</servlet-name>
+    <url-pattern>/CreatePostSSip</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostListSSip</servlet-name>
+    <url-pattern>/PostListSSip</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateCommentSSip</servlet-name>
+    <url-pattern>/CreateCommentSSip</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentListSSip</servlet-name>
+    <url-pattern>/CommentListSSip</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyPostSSip</servlet-name>
+    <url-pattern>/ModifyPostSSip</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConfirmSipS</servlet-name>
+    <url-pattern>/ConfirmSipS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SipListModeratorS</servlet-name>
+    <url-pattern>/SipListModeratorS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AppMemberListS</servlet-name>
+    <url-pattern>/AppMemberListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AppModeratorListS</servlet-name>
+    <url-pattern>/AppModeratorListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateInvitationS</servlet-name>
+    <url-pattern>/CreateInvitationS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InvitationListS</servlet-name>
+    <url-pattern>/InvitationListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdvtS</servlet-name>
+    <url-pattern>/AdvtS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetPreferenceS</servlet-name>
+    <url-pattern>/SetPreferenceS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TypeListS</servlet-name>
+    <url-pattern>/TypeListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdvtListS</servlet-name>
+    <url-pattern>/AdvtListS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PurchaseS</servlet-name>
+    <url-pattern>/PurchaseS</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
